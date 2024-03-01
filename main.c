@@ -14,7 +14,7 @@ for ( i = 1; i < argc; ++i ) {
       //insertNode_R(&b.root,atoi(argv[i]) );
   } // end for
    // traverse the tree preOrder
-    printf("traversal is" );
+    printf("\npreOrder\n" );
    preOrder( b.root );
 
    // traverse the tree inOrder
