@@ -112,7 +112,7 @@ void inOrder( TreeNodePtr treePtr )
    if ( treePtr != NULL ){
       ++count; 
       printTree( treePtr->rightPtr ,count); //Recursion to the right
-      for(i=0;i<count;i++) printf("    ");
+      for(i=0;i<count;i++) printf("   ");
       printf("%3d\n",treePtr->data) ;  //เรียกตัวเอง print the value
       printTree( treePtr->leftPtr,count ); //Recursion to the left
 
